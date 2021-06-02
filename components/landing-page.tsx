@@ -26,8 +26,8 @@ export const LandingPage = (props: LandingPage_Doc_Data) => {
                       src={block.src || "/asdf"}
                       title={block.heading}
                       layout="responsive"
-                      width="1070x"
-                      height="1220px"
+                      width="auto"
+                      height="auto"
                     />
                   </React.Fragment>
                 );
